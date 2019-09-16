@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 
 #Reading csv file using numpy
-wines = np.genfromtxt("/home/komali_priya/Documents/google.csv", delimiter=",", skip_header=0)
+wines = np.genfromtxt("google.csv", delimiter=",", skip_header=0)
 print("wines  ",wines)
 
 #Normalizing
